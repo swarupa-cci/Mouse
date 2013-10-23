@@ -263,7 +263,6 @@
 				6C463A6F18180E1000613E27 /* Test11.m in Sources */,
 				6C463A49181804BF00613E27 /* AppDelegate.m in Sources */,
 				6C463A45181804BF00613E27 /* main.m in Sources */,
-				7807CB5518180E19004BF225 /* Class2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mouse/Mouse-Prefix.pch";
 				INFOPLIST_FILE = "Mouse/Mouse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mouse/Mouse-Prefix.pch";
 				INFOPLIST_FILE = "Mouse/Mouse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
