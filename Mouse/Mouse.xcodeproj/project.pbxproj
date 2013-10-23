@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C463A39181804BF00613E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C463A38181804BF00613E27 /* Foundation.framework */; };
+		6C463A3B181804BF00613E27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C463A3A181804BF00613E27 /* CoreGraphics.framework */; };
+		6C463A3D181804BF00613E27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C463A3C181804BF00613E27 /* UIKit.framework */; };
+		6C463A43181804BF00613E27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C463A41181804BF00613E27 /* InfoPlist.strings */; };
+		6C463A45181804BF00613E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C463A44181804BF00613E27 /* main.m */; };
+		6C463A49181804BF00613E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C463A48181804BF00613E27 /* AppDelegate.m */; };
+		6C463A4C181804BF00613E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C463A4A181804BF00613E27 /* Main.storyboard */; };
+		6C463A4F181804BF00613E27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C463A4E181804BF00613E27 /* ViewController.m */; };
+		6C463A51181804BF00613E27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C463A50181804BF00613E27 /* Images.xcassets */; };
+		6C463A58181804BF00613E27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C463A57181804BF00613E27 /* XCTest.framework */; };
+		6C463A59181804BF00613E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C463A38181804BF00613E27 /* Foundation.framework */; };
+		6C463A5A181804BF00613E27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C463A3C181804BF00613E27 /* UIKit.framework */; };
+		6C463A62181804BF00613E27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C463A60181804BF00613E27 /* InfoPlist.strings */; };
+		6C463A64181804BF00613E27 /* MouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C463A63181804BF00613E27 /* MouseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C463A5B181804BF00613E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C463A2D181804BF00613E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C463A34181804BF00613E27;
+			remoteInfo = Mouse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C463A35181804BF00613E27 /* Mouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C463A38181804BF00613E27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C463A3A181804BF00613E27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C463A3C181804BF00613E27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C463A40181804BF00613E27 /* Mouse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mouse-Info.plist"; sourceTree = "<group>"; };
+		6C463A42181804BF00613E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C463A44181804BF00613E27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C463A46181804BF00613E27 /* Mouse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mouse-Prefix.pch"; sourceTree = "<group>"; };
+		6C463A47181804BF00613E27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C463A48181804BF00613E27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C463A4B181804BF00613E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C463A4D181804BF00613E27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C463A4E181804BF00613E27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C463A50181804BF00613E27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C463A56181804BF00613E27 /* MouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C463A57181804BF00613E27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6C463A5F181804BF00613E27 /* MouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MouseTests-Info.plist"; sourceTree = "<group>"; };
+		6C463A61181804BF00613E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C463A63181804BF00613E27 /* MouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MouseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C463A32181804BF00613E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C463A3B181804BF00613E27 /* CoreGraphics.framework in Frameworks */,
+				6C463A3D181804BF00613E27 /* UIKit.framework in Frameworks */,
+				6C463A39181804BF00613E27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C463A53181804BF00613E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C463A58181804BF00613E27 /* XCTest.framework in Frameworks */,
+				6C463A5A181804BF00613E27 /* UIKit.framework in Frameworks */,
+				6C463A59181804BF00613E27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C463A2C181804BF00613E27 = {
+			isa = PBXGroup;
+			children = (
+				6C463A3E181804BF00613E27 /* Mouse */,
+				6C463A5D181804BF00613E27 /* MouseTests */,
+				6C463A37181804BF00613E27 /* Frameworks */,
+				6C463A36181804BF00613E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C463A36181804BF00613E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C463A35181804BF00613E27 /* Mouse.app */,
+				6C463A56181804BF00613E27 /* MouseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C463A37181804BF00613E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C463A38181804BF00613E27 /* Foundation.framework */,
+				6C463A3A181804BF00613E27 /* CoreGraphics.framework */,
+				6C463A3C181804BF00613E27 /* UIKit.framework */,
+				6C463A57181804BF00613E27 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C463A3E181804BF00613E27 /* Mouse */ = {
+			isa = PBXGroup;
+			children = (
+				6C463A47181804BF00613E27 /* AppDelegate.h */,
+				6C463A48181804BF00613E27 /* AppDelegate.m */,
+				6C463A4A181804BF00613E27 /* Main.storyboard */,
+				6C463A4D181804BF00613E27 /* ViewController.h */,
+				6C463A4E181804BF00613E27 /* ViewController.m */,
+				6C463A50181804BF00613E27 /* Images.xcassets */,
+				6C463A3F181804BF00613E27 /* Supporting Files */,
+			);
+			path = Mouse;
+			sourceTree = "<group>";
+		};
+		6C463A3F181804BF00613E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C463A40181804BF00613E27 /* Mouse-Info.plist */,
+				6C463A41181804BF00613E27 /* InfoPlist.strings */,
+				6C463A44181804BF00613E27 /* main.m */,
+				6C463A46181804BF00613E27 /* Mouse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C463A5D181804BF00613E27 /* MouseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C463A63181804BF00613E27 /* MouseTests.m */,
+				6C463A5E181804BF00613E27 /* Supporting Files */,
+			);
+			path = MouseTests;
+			sourceTree = "<group>";
+		};
+		6C463A5E181804BF00613E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C463A5F181804BF00613E27 /* MouseTests-Info.plist */,
+				6C463A60181804BF00613E27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C463A34181804BF00613E27 /* Mouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C463A67181804BF00613E27 /* Build configuration list for PBXNativeTarget "Mouse" */;
+			buildPhases = (
+				6C463A31181804BF00613E27 /* Sources */,
+				6C463A32181804BF00613E27 /* Frameworks */,
+				6C463A33181804BF00613E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mouse;
+			productName = Mouse;
+			productReference = 6C463A35181804BF00613E27 /* Mouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C463A55181804BF00613E27 /* MouseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C463A6A181804BF00613E27 /* Build configuration list for PBXNativeTarget "MouseTests" */;
+			buildPhases = (
+				6C463A52181804BF00613E27 /* Sources */,
+				6C463A53181804BF00613E27 /* Frameworks */,
+				6C463A54181804BF00613E27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C463A5C181804BF00613E27 /* PBXTargetDependency */,
+			);
+			name = MouseTests;
+			productName = MouseTests;
+			productReference = 6C463A56181804BF00613E27 /* MouseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C463A2D181804BF00613E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = creativecapsule;
+				TargetAttributes = {
+					6C463A55181804BF00613E27 = {
+						TestTargetID = 6C463A34181804BF00613E27;
+					};
+				};
+			};
+			buildConfigurationList = 6C463A30181804BF00613E27 /* Build configuration list for PBXProject "Mouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C463A2C181804BF00613E27;
+			productRefGroup = 6C463A36181804BF00613E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C463A34181804BF00613E27 /* Mouse */,
+				6C463A55181804BF00613E27 /* MouseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C463A33181804BF00613E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C463A51181804BF00613E27 /* Images.xcassets in Resources */,
+				6C463A43181804BF00613E27 /* InfoPlist.strings in Resources */,
+				6C463A4C181804BF00613E27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C463A54181804BF00613E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C463A62181804BF00613E27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C463A31181804BF00613E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C463A4F181804BF00613E27 /* ViewController.m in Sources */,
+				6C463A49181804BF00613E27 /* AppDelegate.m in Sources */,
+				6C463A45181804BF00613E27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C463A52181804BF00613E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C463A64181804BF00613E27 /* MouseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C463A5C181804BF00613E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C463A34181804BF00613E27 /* Mouse */;
+			targetProxy = 6C463A5B181804BF00613E27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C463A41181804BF00613E27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C463A42181804BF00613E27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C463A4A181804BF00613E27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C463A4B181804BF00613E27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C463A60181804BF00613E27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C463A61181804BF00613E27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C463A65181804BF00613E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C463A66181804BF00613E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C463A68181804BF00613E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mouse/Mouse-Prefix.pch";
+				INFOPLIST_FILE = "Mouse/Mouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C463A69181804BF00613E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mouse/Mouse-Prefix.pch";
+				INFOPLIST_FILE = "Mouse/Mouse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6C463A6B181804BF00613E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mouse.app/Mouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mouse/Mouse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MouseTests/MouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6C463A6C181804BF00613E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mouse.app/Mouse";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mouse/Mouse-Prefix.pch";
+				INFOPLIST_FILE = "MouseTests/MouseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C463A30181804BF00613E27 /* Build configuration list for PBXProject "Mouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C463A65181804BF00613E27 /* Debug */,
+				6C463A66181804BF00613E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C463A67181804BF00613E27 /* Build configuration list for PBXNativeTarget "Mouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C463A68181804BF00613E27 /* Debug */,
+				6C463A69181804BF00613E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C463A6A181804BF00613E27 /* Build configuration list for PBXNativeTarget "MouseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C463A6B181804BF00613E27 /* Debug */,
+				6C463A6C181804BF00613E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C463A2D181804BF00613E27 /* Project object */;
+}
