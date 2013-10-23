@@ -22,6 +22,7 @@
 		6C463A62181804BF00613E27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C463A60181804BF00613E27 /* InfoPlist.strings */; };
 		6C463A64181804BF00613E27 /* MouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C463A63181804BF00613E27 /* MouseTests.m */; };
 		6C463A6F18180E1000613E27 /* Test11.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C463A6E18180E1000613E27 /* Test11.m */; };
+		7807CB5618180E19004BF225 /* Class2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7807CB5418180E19004BF225 /* Class2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		6C463A63181804BF00613E27 /* MouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MouseTests.m; sourceTree = "<group>"; };
 		6C463A6D18180E1000613E27 /* Test11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test11.h; sourceTree = "<group>"; };
 		6C463A6E18180E1000613E27 /* Test11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test11.m; sourceTree = "<group>"; };
+		7807CB5318180E19004BF225 /* Class2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class2.h; sourceTree = "<group>"; };
+		7807CB5418180E19004BF225 /* Class2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Class2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				6C463A3F181804BF00613E27 /* Supporting Files */,
 				6C463A6D18180E1000613E27 /* Test11.h */,
 				6C463A6E18180E1000613E27 /* Test11.m */,
+				7807CB5318180E19004BF225 /* Class2.h */,
+				7807CB5418180E19004BF225 /* Class2.m */,
 			);
 			path = Mouse;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				6C463A6F18180E1000613E27 /* Test11.m in Sources */,
 				6C463A49181804BF00613E27 /* AppDelegate.m in Sources */,
 				6C463A45181804BF00613E27 /* main.m in Sources */,
+				7807CB5518180E19004BF225 /* Class2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C463A64181804BF00613E27 /* MouseTests.m in Sources */,
+				7807CB5618180E19004BF225 /* Class2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
