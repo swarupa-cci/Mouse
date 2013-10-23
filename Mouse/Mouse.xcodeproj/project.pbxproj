@@ -21,6 +21,7 @@
 		6C463A5A181804BF00613E27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C463A3C181804BF00613E27 /* UIKit.framework */; };
 		6C463A62181804BF00613E27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C463A60181804BF00613E27 /* InfoPlist.strings */; };
 		6C463A64181804BF00613E27 /* MouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C463A63181804BF00613E27 /* MouseTests.m */; };
+		6C463A6F18180E1000613E27 /* Test11.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C463A6E18180E1000613E27 /* Test11.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6C463A5F181804BF00613E27 /* MouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MouseTests-Info.plist"; sourceTree = "<group>"; };
 		6C463A61181804BF00613E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6C463A63181804BF00613E27 /* MouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MouseTests.m; sourceTree = "<group>"; };
+		6C463A6D18180E1000613E27 /* Test11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test11.h; sourceTree = "<group>"; };
+		6C463A6E18180E1000613E27 /* Test11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test11.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				6C463A4E181804BF00613E27 /* ViewController.m */,
 				6C463A50181804BF00613E27 /* Images.xcassets */,
 				6C463A3F181804BF00613E27 /* Supporting Files */,
+				6C463A6D18180E1000613E27 /* Test11.h */,
+				6C463A6E18180E1000613E27 /* Test11.m */,
 			);
 			path = Mouse;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C463A4F181804BF00613E27 /* ViewController.m in Sources */,
+				6C463A6F18180E1000613E27 /* Test11.m in Sources */,
 				6C463A49181804BF00613E27 /* AppDelegate.m in Sources */,
 				6C463A45181804BF00613E27 /* main.m in Sources */,
 			);
@@ -460,6 +466,7 @@
 				6C463A69181804BF00613E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C463A6A181804BF00613E27 /* Build configuration list for PBXNativeTarget "MouseTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +475,7 @@
 				6C463A6C181804BF00613E27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
