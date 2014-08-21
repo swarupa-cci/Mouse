@@ -20,6 +20,7 @@
     NSLog(@"Test13");
     NSLog(@"Test14");
     NSLog(@"Test141");
+      NSLog(@"This is a test tag");
 
     return YES;
 }
