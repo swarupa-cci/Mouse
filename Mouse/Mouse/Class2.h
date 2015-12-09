@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface Class2 : NSObject
-@property(nonatomic,strong) NSString *test;
+@property(nonatomic,strong) NSString *test1;
 
 @end
